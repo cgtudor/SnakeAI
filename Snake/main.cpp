@@ -24,6 +24,7 @@ std::vector<sf::Vector2f> neighbors(sf::Vector2f current)
 
 int map[56][100], cmap[56][100];
 
+/*
 std::unordered_map<sf::Vector2f, sf::Vector2f> findPath(sf::Vector2f start, sf::Vector2f end)
 {
 	std::queue<sf::Vector2f> frontier;
@@ -41,6 +42,7 @@ std::unordered_map<sf::Vector2f, sf::Vector2f> findPath(sf::Vector2f start, sf::
 		return came_from;
 	}
 }
+*/
 
 int main()
 {
